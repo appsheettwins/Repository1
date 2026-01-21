@@ -5,7 +5,7 @@ const orderForm = document.getElementById('order-form');
 // URL Apps Script ที่จะโหลดรายการผัก
 const productsURL = 'https://script.google.com/macros/s/XXXXXXX/exec?action=getProducts';
 // URL Apps Script ที่จะรับออเดอร์
-const submitURL = 'https://script.google.com/macros/s/XXXXXXX/exec';
+const submitURL = 'https://script.google.com/macros/s/AKfycbw1RQOQdLYOz8bioGIWg9ug28LMP3xiCDckE5pbLSI1Z_SSGuKw2pXdu216yWvS3TEP/exec';
 
 fetch(productsURL)
   .then(res => res.json())
@@ -53,4 +53,5 @@ document.getElementById('submit-btn').addEventListener('click', () => {
   document.getElementById('response').innerText = "ส่งออเดอร์เรียบร้อยแล้ว!";
   orderForm.reset();
 });
+
 
