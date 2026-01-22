@@ -1,5 +1,5 @@
 const btn = document.getElementById('btn');
-const liffId = '';
+const liffId = '2008930174-6m3cosbU';
 let userId = '';
 
 function main(){
